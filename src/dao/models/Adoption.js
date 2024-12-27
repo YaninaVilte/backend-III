@@ -16,4 +16,8 @@ const schema = new mongoose.Schema({
 
 const adoptionModel = mongoose.model(collection,schema);
 
+<<<<<<< HEAD
 export default adoptionModel;
+=======
+export default adoptionModel;
+>>>>>>> master

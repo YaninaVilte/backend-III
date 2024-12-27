@@ -24,4 +24,10 @@ app.use('/api/adoptions', adoptionsRouter);
 app.use('/api/sessions', sessionsRouter);
 app.use("/api/mocks", mocksRouter);
 
+<<<<<<< HEAD
 app.listen(PORT, () => console.log(`Escuchando en http://localhost:${PORT}`))
+=======
+app.listen(PORT, () => console.log(`Escuchando en http://localhost:${PORT}`))
+
+export default app; 
+>>>>>>> master
